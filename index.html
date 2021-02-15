@@ -17,7 +17,7 @@
     <title>Krista-chan</title>
 </head>
 
-<body>
+<body class="3dBg">
     <div class="main">
         <div class="content">
             <h1 style="color: white;">Krista</h1>
@@ -27,18 +27,21 @@
 
 
     <script>
-    var setVanta = ()=>{
-    if (window.VANTA) window.VANTA.NET({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00
-    })
-    }
+        var setVanta = () => {
+            if (window.VANTA) window.VANTA.NET({
+                el: "#3dBg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xfacade,
+                backgroundColor: 0x000000
+            })
+        }
+        setVanta();
     </script>
 </body>
 
