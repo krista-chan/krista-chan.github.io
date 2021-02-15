@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-	background-image: linear-gradient(#facade, pink);
+	background: linear-gradient(#facade, pink) no-repeat cover;
 }
 
 .main {
