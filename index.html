@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <script src="jQ"></script>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.net.min.js"></script>
     <title>Krista-chan</title>
 </head>
 
@@ -25,12 +26,18 @@
     </div>
 
     <script>
-        $('#content').mousemove(function (e) {
-            var amountMovedX = (e.pageX * -1 / 50);
-            var amountMovedY = (e.pageY * -1 / 50);
-            $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-            console.log("%cWelcome to my website!", "color: #84fab0; font-size: xxx-large;")
-        });
+        VANTA.NET({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xfacade,
+            backgroundColor: 0x000000
+        })
     </script>
 </body>
 
