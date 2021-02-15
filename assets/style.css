@@ -3,6 +3,7 @@ body {
 	background: linear-gradient(#facade, pink);
 	background-size: cover;
 	background-repeat: no-repeat;
+	size: 100%;
 }
 
 .main {
