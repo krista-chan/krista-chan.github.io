@@ -75,7 +75,7 @@ h4 {
 	   #732982 100%,
 	   #E7484F 100%
 	);
-	transition: all 1s;
+	width: 50%;
 	animation: slidebg 2s linear infinite;
 }
  
