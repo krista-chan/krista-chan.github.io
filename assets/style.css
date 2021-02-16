@@ -41,6 +41,8 @@ hr {
 
 .flex-elem {
 	justify-self: center;
+	display: flex;
+	flex-direction: row;
 }
 
 @keyframes float {
