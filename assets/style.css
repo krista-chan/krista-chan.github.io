@@ -39,6 +39,10 @@ hr {
 	justify-self: flex-start;
 }
 
+.flex-elem {
+	justify-self: center;
+}
+
 @keyframes float {
 	0% {
 		text-shadow: 0px 5px 5px rgba(0,0,0,0.6);
