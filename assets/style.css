@@ -8,6 +8,12 @@ html, body {
 	height: 100%;
 }
 
+hr {
+	position: relative;
+	height: 2.5px;
+	filter: blur(6px)
+}
+
 .title {
     display: flex;
     align-items: center;
