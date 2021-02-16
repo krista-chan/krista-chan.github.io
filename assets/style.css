@@ -55,7 +55,7 @@ h4 {
 	color: #000;
 	cursor: default;
 	padding: 8px 16px;
-	transition: all 1s;
+	transition: width 1s ease-in-out;
 }
 
 #aleBot:hover {
