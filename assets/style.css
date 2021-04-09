@@ -29,6 +29,13 @@ hr {
 	justify-content: center;
 }
 
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: left;
+}
+
 .content {
     animation: float 3s ease-in-out infinite;
     display: flex;
