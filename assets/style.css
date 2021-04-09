@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Quicksand', sans-serif;
-	background: linear-gradient(#facade, pink);
+	background: linear-gradient(#facade, rgb(255, 136, 156));
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
