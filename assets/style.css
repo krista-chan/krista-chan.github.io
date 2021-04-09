@@ -36,6 +36,10 @@ hr {
 	justify-content: left;
 }
 
+.sidebar-content {
+	padding: 10px;
+}
+
 .content {
     animation: float 3s ease-in-out infinite;
     display: flex;
